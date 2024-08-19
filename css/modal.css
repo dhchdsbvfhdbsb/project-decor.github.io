@@ -1,0 +1,55 @@
+
+.modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom: none;
+}
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+.modal-body {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    padding: 0.75rem 1.25rem;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.flatpickr-calendar {
+    border-radius: 8px;
+}
+.form-row {
+    margin-bottom: 1rem;
+}
+.form-row .form-group {
+    margin-bottom: 0;
+}
+.form-row .form-group input,
+.form-row .form-group select {
+    border-radius: 8px;
+}

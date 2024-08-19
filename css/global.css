@@ -1,0 +1,142 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .btn-category {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+
+
+
+
+  .navbar {
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.6); /* Полупрозрачный черный фон */
+    backdrop-filter: blur(10px); /* Эффект размытия фона */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Легкая граница */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: gold;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffd700;
+  }
+  
+  .navbar-nav .nav-link {
+    color: gold;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffd700;
+  }
+  
+  .navbar-toggler {
+    border-color: gold;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="gold" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+  }
+
+
+
+
+
+   /* footer */
+  /* конец отзыв */
+  .footer {
+    background: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+    padding: 40px 0;
+    border-top: 2px solid gold; /* Золотая линия сверху */
+    position: relative;
+}
+
+.footer h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: gold; /* Золотой цвет заголовка */
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #ddd;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: gold;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background: gold;
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #ddd;
+}
